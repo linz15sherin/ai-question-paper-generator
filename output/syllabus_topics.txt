@@ -1,0 +1,22 @@
+2 SYLLABUS (R15A0509) DATABASE MANAGEMENT SYSTEMS Objectives: To Understand the basic concepts and the applications of database systems To Master the basics of SQL and construct queries using SQL To understand the relational database design principles To become familiar with the basic issues of transaction processing and concurrency control To become familiar with database storage structures and access techniques
+
+: Data base System Applications, Purpose of Database Systems, View of Data – Data Abstraction – Instances and Schemas – data Models – the ER Model – Relational Model – Other Models – Database Languages – DDL – DML – database Access for applications Programs – data base Users and Administrator – Transaction Management – data base Architecture – Storage Manager – the Query Processor Data base design and ER diagrams – ER Model - Entities, Attributes and Entity sets – Relationships and Relationship sets – ER Design Issues – Concept Design – Conceptual Design for University Enterprise. Introduction to the Relational Model – Structure – Database Schema, Keys – Schema Diagrams
+
+: Relational Query Languages, Relational Operations. Relational Algebra – Selection and projection set operations – renaming – Joins – Division – Examples of Algebra overviews – Relational calculus – Tuple relational Calculus – Domain relational calculus. Overview of the SQL Query Language – Basic Structure of SQL Queries, Set Operations, Aggregate Functions – GROUPBY – HAVING, Nested Sub queries, Views, Triggers.
+
+: Normalization – Introduction, Non loss decomposition and functional dependencies, First, Second, and third normal forms – dependency preservation, Boyee/Codd normal form. Higher Normal Forms - Introduction, Multi-valued dependencies and Fourth normal form, Join dependencies and Fifth normal form
+
+: Transaction Concept- Transaction State- Implementation of Atomicity and Durability – Concurrent – Executions – Serializability- Recoverability – Implementation of Isolation – Testing for serializability- Lock –Based Protocols – Timestamp Based Protocols- Validation- Based Protocols – Multiple Granularity. Recovery and Atomicity – Log – Based Recovery – Recovery with Concurrent Transactions – Buffer Management – Failure with loss of nonvolatile storage-Advance Recovery systems- Remote Backup systems.
+
+: File organization:– File organization – various kinds of indexes. Query Processing – Measures of query cost - Selection operation – Projection operation, - Join operation – set operation and aggregate operation – Relational Query Optimization – Transacting SQL queries – Estimating the cost – Equivalence Rules. 3 TEXT BOOKS:
+
+Data base System Concepts, Silberschatz, Korth, McGraw hill, Sixth Edition.(All UNITS except III th)
+
+Data base Management Systems, Raghurama Krishnan, Johannes Gehrke, TATA McGrawHill 3rd Edition. REFERENCE BOOKS:
+
+Fundamentals of Database Systems, Elmasri Navathe Pearson Education.
+
+An Introduction to Database systems, C.J. Date, A.Kannan, S.Swami Nadhan, Pearson, Eight Edition for
+
+. URLs: Outcomes: Demonstrate the basic elements of a relational database management system Ability to identify the data models for relevant problems Ability to design entity relationship and convert entity relationship diagrams into RDBMS and formulate SQL queries on the respect data Apply normalization for the development of application software’s
+
