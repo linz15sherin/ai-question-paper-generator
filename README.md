@@ -8,7 +8,7 @@ AI-based system to generate question papers using syllabus and textbook PDFs
 - [x] Python virtual environment created
 - [x] Dependency `pdfplumber` installed
 - [x] PDF text extraction module implemented (`src/pdf_parser.py`)
-- [ ] Syllabus parsing module (Next)
+- [x] Syllabus parsing module (Next)
 - [ ] AI/ML question generation logic (Next)
 - [ ] Output formatting (question paper generation)
 
