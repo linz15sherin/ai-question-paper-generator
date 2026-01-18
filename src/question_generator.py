@@ -24,33 +24,13 @@ def load_topic_content_map(file_path):
     return topic_map
 
 
-def generate_questions(topic_map, difficulty="medium", questions_per_topic=1):
+def generate_questions(topics, difficulty, count):
+    templates = QUESTION_TEMPLATES[difficulty]
+    selected_topics = random.sample(topics, min(count, len(topics)))
+
     questions = []
-
-    templates = QUESTION_TEMPLATES.get(difficulty, [])
-
-    for topic in topic_map:
-        for _ in range(questions_per_topic):
-            template = random.choice(templates)
-            question = template.format(topic=topic)
-            questions.append(question)
+    for topic in selected_topics:
+        template = random.choice(templates)
+        questions.append(template.format(topic=topic))
 
     return questions
-
-
-if __name__ == "__main__":
-    input_file = "output/topic_content_map.txt"
-    output_file = "output/generated_questions.txt"
-
-    topic_map = load_topic_content_map(input_file)
-
-    questions = generate_questions(
-        topic_map,
-        difficulty="medium",
-        questions_per_topic=1
-    )
-
-    with open(output_file, "w", encoding="utf-8") as f:
-        for q in questions:
-            f.write(q + "\n")
-

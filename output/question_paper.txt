@@ -1,0 +1,22 @@
+
+Part A (2 Marks Each)
+----------------------------------------
+1. Define Data base System Concepts, Silberschatz, Korth, McGraw hill, Sixth Edition.(All UNITS except III th).
+2. What is Data base Management Systems, Raghurama Krishnan, Johannes Gehrke, TATA McGrawHill 3rd Edition. REFERENCE BOOKS:?
+3. What is 2 SYLLABUS (R15A0509) DATABASE MANAGEMENT SYSTEMS Objectives: To Understand the basic concepts and the applications of database systems To Master the basics of SQL and construct queries using SQL To understand the relational database design principles To become familiar with the basic issues of transaction processing and concurrency control To become familiar with database storage structures and access techniques?
+4. What is : File organization:– File organization – various kinds of indexes. Query Processing – Measures of query cost - Selection operation – Projection operation, - Join operation – set operation and aggregate operation – Relational Query Optimization – Transacting SQL queries – Estimating the cost – Equivalence Rules. 3 TEXT BOOKS:?
+5. What is ?
+
+Part B (5 Marks Each)
+----------------------------------------
+1. Explain .
+2. Explain Data base System Concepts, Silberschatz, Korth, McGraw hill, Sixth Edition.(All UNITS except III th).
+3. Describe the working of 2 SYLLABUS (R15A0509) DATABASE MANAGEMENT SYSTEMS Objectives: To Understand the basic concepts and the applications of database systems To Master the basics of SQL and construct queries using SQL To understand the relational database design principles To become familiar with the basic issues of transaction processing and concurrency control To become familiar with database storage structures and access techniques.
+4. Describe the working of An Introduction to Database systems, C.J. Date, A.Kannan, S.Swami Nadhan, Pearson, Eight Edition for.
+5. Describe the working of : Data base System Applications, Purpose of Database Systems, View of Data – Data Abstraction – Instances and Schemas – data Models – the ER Model – Relational Model – Other Models – Database Languages – DDL – DML – database Access for applications Programs – data base Users and Administrator – Transaction Management – data base Architecture – Storage Manager – the Query Processor Data base design and ER diagrams – ER Model - Entities, Attributes and Entity sets – Relationships and Relationship sets – ER Design Issues – Concept Design – Conceptual Design for University Enterprise. Introduction to the Relational Model – Structure – Database Schema, Keys – Schema Diagrams.
+
+Part C (10 Marks Each)
+----------------------------------------
+1. Explain Data base System Concepts, Silberschatz, Korth, McGraw hill, Sixth Edition.(All UNITS except III th) with suitable examples.
+2. Discuss the advantages and limitations of 2 SYLLABUS (R15A0509) DATABASE MANAGEMENT SYSTEMS Objectives: To Understand the basic concepts and the applications of database systems To Master the basics of SQL and construct queries using SQL To understand the relational database design principles To become familiar with the basic issues of transaction processing and concurrency control To become familiar with database storage structures and access techniques.
+3. Analyze . URLs: Outcomes: Demonstrate the basic elements of a relational database management system Ability to identify the data models for relevant problems Ability to design entity relationship and convert entity relationship diagrams into RDBMS and formulate SQL queries on the respect data Apply normalization for the development of application software’s in detail.
